@@ -201,7 +201,7 @@ p{
                 display: block;
                 position: absolute;
                 top: 0px;
-                left: -150%;
+                left: -1500px;
                 z-index: 12;
                 transition: all 1s ease;
             }
@@ -233,7 +233,7 @@ p{
             @media(max-width: 992px){
                 position: fixed;
                 top: 0;
-                left: -150%;
+                left: -1500px;
                 width: 100%;
                 z-index: 10;
                 text-align: center;
@@ -360,10 +360,6 @@ p{
             top: 6px;
             right: 1500px;
             z-index: 12;
-            -webkit-transition: all 1s ease;
-            -moz-transition: all 1s ease;
-            -ms-transition: all 1s ease;
-            -o-transition: all 1s ease;
             transition: all 1s ease;
             img{
                 width: 18px;
