@@ -792,6 +792,7 @@ p {
   color: #132378;
   text-align: center;
   justify-content: center;
+  transition: background 0.5s linear, color 0.5s linear;
 }
 @media (max-width: 1160px) {
   .do .do__body .tabs .tab-header .tab-header1 .tab_button {
@@ -819,6 +820,7 @@ p {
   height: 48px;
   background-image: url("../images/do-1.svg");
   background-size: cover;
+  transition: background 1s linear;
 }
 .do .do__body .tabs .tab-header .tab-header1 .tab_button.active .icon-2 {
   background-image: url("../images/do_2.svg");
@@ -833,6 +835,7 @@ p {
   height: 48px;
   background-image: url("../images/do-2.svg");
   background-size: cover;
+  transition: background 1s linear;
 }
 .do .do__body .tabs .tab-header .tab-header1 .tab_button.active .icon-3 {
   background-image: url("../images/do_3.svg");
@@ -847,6 +850,7 @@ p {
   height: 48px;
   background-image: url("../images/do-3.svg");
   background-size: cover;
+  transition: background 1s linear;
 }
 .do .do__body .tabs .tab-header .tab-header1 .tab_button::before {
   content: "";
@@ -878,6 +882,7 @@ p {
   justify-content: center;
   position: relative;
   z-index: 10;
+  transition: background 0.5s linear, color 0.5s linear;
 }
 @media (max-width: 1160px) {
   .do .do__body .tabs .tab-header .tab-header2 .tab_button {
@@ -905,6 +910,7 @@ p {
   height: 48px;
   background-image: url("../images/do-4.svg");
   background-size: cover;
+  transition: background 1s linear;
 }
 .do .do__body .tabs .tab-header .tab-header2 .tab_button.active .icon-5 {
   background-image: url("../images/do_5.svg");
@@ -919,6 +925,7 @@ p {
   height: 48px;
   background-image: url("../images/do-5.svg");
   background-size: cover;
+  transition: background 1s linear;
 }
 .do .do__body .tabs .tab-header .tab-header2 .tab_button.active .icon-6 {
   background-image: url("../images/do_6.svg");
@@ -933,6 +940,7 @@ p {
   height: 48px;
   background-image: url("../images/do-6.svg");
   background-size: cover;
+  transition: background 1s linear;
 }
 .do .do__body .tabs .tab-content {
   width: 50%;
